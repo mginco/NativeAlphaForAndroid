@@ -113,9 +113,6 @@ public class WebViewActivity extends AppCompatActivity implements EasyPermission
                         wv.getSettings().setForceDark(WebSettings.FORCE_DARK_ON);
                         wv.setBackgroundColor(Color.BLACK);
                 }
-                else {
-                    wv.getSettings().setForceDark(WebSettings.FORCE_DARK_OFF);
-                }
             }
 
             wv.getSettings().setJavaScriptEnabled(webapp.isAllowJs());
